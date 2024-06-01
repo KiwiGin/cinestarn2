@@ -940,3 +940,32 @@ Caused by: org.hibernate.AnnotationException: Entity 'pe.edu.embe_cinestar.cines
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
 	... 99 common frames omitted
 
+2024-06-01T02:51:04.554-05:00  INFO 49468 --- [restartedMain] p.e.e.cinestarn.CinestarnApplication     : Starting CinestarnApplication using Java 21.0.2 with PID 49468 (C:\Users\USER\Desktop\copiacinestarn\cinestarn2\target\classes started by USER in C:\Users\USER\Desktop\copiacinestarn\cinestarn2)
+2024-06-01T02:51:04.556-05:00  INFO 49468 --- [restartedMain] p.e.e.cinestarn.CinestarnApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-06-01T02:51:04.605-05:00  INFO 49468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-01T02:51:04.606-05:00  INFO 49468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-01T02:51:05.067-05:00  INFO 49468 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-01T02:51:05.118-05:00  INFO 49468 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 5 JPA repository interfaces.
+2024-06-01T02:51:05.555-05:00  INFO 49468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-01T02:51:05.567-05:00  INFO 49468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-01T02:51:05.567-05:00  INFO 49468 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-01T02:51:05.609-05:00  INFO 49468 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring embedded WebApplicationContext
+2024-06-01T02:51:05.609-05:00  INFO 49468 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1003 ms
+2024-06-01T02:51:05.723-05:00  INFO 49468 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-01T02:51:05.769-05:00  INFO 49468 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-01T02:51:05.793-05:00  INFO 49468 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-01T02:51:05.954-05:00  INFO 49468 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-01T02:51:05.972-05:00  INFO 49468 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-01T02:51:06.094-05:00  INFO 49468 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7428d166
+2024-06-01T02:51:06.096-05:00  INFO 49468 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-01T02:51:06.132-05:00  WARN 49468 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-06-01T02:51:06.715-05:00  INFO 49468 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-01T02:51:06.717-05:00  INFO 49468 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01T02:51:06.876-05:00  INFO 49468 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-01T02:51:06.978-05:00  WARN 49468 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-01T02:51:07.258-05:00  INFO 49468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-01T02:51:07.286-05:00  INFO 49468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/cinestar'
+2024-06-01T02:51:07.294-05:00  INFO 49468 --- [restartedMain] p.e.e.cinestarn.CinestarnApplication     : Started CinestarnApplication in 3.039 seconds (process running for 3.375)
+2024-06-01T02:51:37.933-05:00  INFO 49468 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-01T02:51:37.933-05:00  INFO 49468 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-01T02:51:37.934-05:00  INFO 49468 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
